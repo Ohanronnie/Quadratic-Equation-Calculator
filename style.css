@@ -1,0 +1,45 @@
+body {
+border: 0.3vw solid #999;
+    font-family: normal;
+border-radius: 8px;
+}
+::placeholder{
+  font-size: 3vw;
+  text-align: center
+}
+input {
+  margin-top: 2vh;
+  width: 85%;
+  height: 8vh;
+  border: 1px solid #333;
+
+}
+input[type="button"]{
+  font-size: 3.5vw;
+  background-color: lightgray;
+  border: none;
+}
+input[type="number"]:hover, input[type="number"]:active{
+  animation-name: exam;
+  animation-duration: 0.5s;
+  outline: 2px solid #008FFF ;
+  border: 0.2px solid #333;
+}
+@keyframes exam{
+from{outline: 0px solid #008FFF;
+}
+to{ outline: 2px solid #008FFF;
+}
+}
+div{
+  margin-top: 20vh;
+  font-size: 3vh;
+  padding-top: 1vh;
+  color: #DDD;
+  background-color: #939393;
+  height: 5vh;
+  width: 86%;
+}
+section{
+  margin-top: 10vh;
+}
