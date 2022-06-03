@@ -18,7 +18,7 @@ function myfunc() {
 
   document.getElementById('ans').innerHTML = 'x' + ' ' + '=' + '  ' + ans1 + ' ' + 'or' + ' ' + 'y' + ' ' + '=' + ' ' + ans2;
   if (isNaN(ans2) == true) {
-    alert('The question is not correct')
+    alert('The combination of those numbers you dropped does not form a quadratic equation'+'<br>'+'Try another combination of numbers')
     document.getElementById('ans').innerHTML = 'x' + ' ' + '=' + '  ' + 0 + ' ' + 'or' + ' ' + 'y' + ' ' + '=' + ' ' + 0;
 
   }
